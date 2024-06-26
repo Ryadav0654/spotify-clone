@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- link font awesome cdnjs in this section   -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="./Assets/logo.png" type="image/icon" /> 
+
+    <!-- link google font in this section  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />  
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+        <!-- This section contain sidebar html  -->
+      
+      <div class="sidebar">
+
+        <!-- this section contain sidebar navbar content  -->
+
+        <div class="nav">
+          <div class="nav-option">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+
+
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+
+        <!-- this section contain sidebar library  -->
+
+        <div class="library">
+          <div class="lib-option">
+            <img src="./Assets/library_icon.png" alt="library image" />
+            <a href="#">Your Library</a>
+            <span class="lib-icon">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </div>
+
+          <!-- this section contain sidebar libray boxes content   -->
+
+          <div class="lib-boxes">
+            <div class="lib-box">
+              <span class="lib-box-heading">Create your first playlist</span>
+              <span class="lib-box-para">It's easy, we'll help you</span>
+              <button class="lib-btn">Create playlist</button>
+            </div>
+            <div class="lib-box">
+              <span class="lib-box-heading"
+                >Let's find some podcast to follow
+              </span>
+              <span class="lib-box-para"
+                >We'll keep you updated on new episodes
+              </span>
+              <button class="lib-btn">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- this section contain main-content html  -->
+
+      <div class="main-content">
+
+         <!-- this section contain main-content navbar html   -->
+
+        <div class="main-nav">
+          <div class="header">
+            <div class="main-nav-arrow">
+              <button class="nav-arrow">
+                <i class="fa-solid fa-angle-left"></i>
+              </button>
+              <button class="nav-arrow">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+            <div class="main-nav-btn-icon">
+              <button class="btn1">Explore Premium</button>
+              <button class="btn2">
+                <i class="fa-regular fa-circle-down"></i>
+                Install App
+              </button>
+              <div class="icon">
+                <i class="fa-regular fa-bell"></i>
+              </div>
+              <div class="icon">
+                <i class="fa-regular fa-user"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <!-- this section contain main-content part - 1 html   -->
+
+          
+        <section class="main-content1">
+          <div class="heading">
+            <h2>Shows to try</h2>
+            <span class="main-content-span">Show all</span>
+          </div>
+          <div class="song-list"> 
+            <div class="card">
+              <img src="./Assets/card1img.jpg" alt="image">
+              <h4>Dr. Vikas Divyakirti Podcast</h4>
+              <p>Dr. Vikas Divyakirti</p>
+            </div>
+            <div class="card">
+              <img src="./Assets/card2img.jpg" alt="image">
+              <h4>Jewellery Business Podcast</h4>
+              <p>Vishwa Modi</p>
+            </div>
+            <div class="card">
+              <img src="./Assets/card3img.jpg" alt="image">
+              <h4>Finshots Daily</h4>
+              <p>Finshots</p>
+            </div>
+            <div class="card">
+              <img src="./Assets/card4img.jpeg" alt="image">
+              <h4>Mere Pas Tum Ho</h4>
+              <p>this is  very beauutiful podcast in spotify</p>
+            </div>
+          </div>
+        </section>
+
+         <!-- this section contain main-content part - 2 html   -->
+
+
+        <section class="main-content2">
+          <div class="heading">
+            <h2>Recommended for you</h2>
+            <span class="main-content-span">Show all</span>
+          </div>
+          <div class="song-list"> 
+            <div class="card">
+              <img src="./Assets/card5img.jpg" alt="image">
+              <h4>Kollywood Cream</h4>
+              <p>Lorem ipsum dolor sit amet Odit delectus ....</p>
+            </div>
+            <div class="card">
+              <img src="./Assets/card6img.jpg" alt="image">
+              <h4>Tollywood Pearls</h4>
+              <p>Lorem ipsum dolor sit amet Odit delectus ....</p>
+            </div>
+            <div class="card">
+              <img src="./Assets/card7img.jpg" alt="image">
+              <h4>Mollywood Gold</h4>
+              <p>Lorem ipsum dolor sit amet Odit delectus ....</p>
+            </div>
+            <div class="card">
+              <img src="./Assets/card8img.jpeg" alt="image">
+              <h4>Alter Ego Naa Ready</h4>
+              <p>Lorem ipsum dolor sit amet Odit delectus ....</p>
+            </div>
+          </div>
+        </section>
+
+         <!-- this section contain main-content part - 3 html   -->
+
+
+        <section class="main-content3">
+          <div class="heading">
+            <h2>Featured Charts</h2>
+            <span class="main-content-span">Show all</span>
+          </div>
+          <div class="song-list"> 
+            <div class="card">
+              <img src="./Assets/card9img.jpeg" alt="image">
+              <h4>Top 50 - Global</h4>
+              <p>Your weekly update of the most played tracks right.....</p>
+            </div>
+            <div class="card">
+              <img src="./Assets/card10img.jpg" alt="image">
+              <h4>Viral 50 - Global</h4>
+              <p>Your weekly update of the most played tracks right.....</p>
+            </div>
+            <div class="card">
+              <img src="./Assets/card11img.jpeg" alt="image">
+              <h4>Top Songs - Global</h4>
+              <p>Your weekly update of the most played tracks right.....</p>
+            </div>
+            <div class="card">
+              <img src="./Assets/card12img.jpeg" alt="image">
+              <h4>Top Songs - India</h4>
+              <p>Your weekly update of the most played tracks right.....</p>
+            </div>
+          </div>
+        </section>
+
+          <!-- this section contain main-content part - 4 html   -->
+
+        <section class="main-content4">
+          <div class="heading">
+            <h2>Spotify original &amp exclusive podcasts</h2>
+            <span class="main-content-span">Show all</span>
+          </div>
+          <div class="song-list"> 
+            <div class="card">
+              <img src="./Assets/card13img.jpg" alt="image">
+              <h4>Chanakya Niti</h4>
+              <p>Kiran Chavda</p>
+            </div>
+            <div class="card">
+              <img src="./Assets/card14img.jpg" alt="image">
+              <h4>Horror Time - Scary story in Hindi</h4>
+              <p>Horror Time</p>
+            </div>
+            <div class="card">
+              <img src="./Assets/card15img.jpg" alt="image">
+              <h4>True Story Bro! with Triggered Indsaan</h4>
+              <p>Spotify</p>
+            </div>
+            <div class="card">
+              <img src="./Assets/card16img.jpg" alt="image">
+              <h4>Pretkotha(Bengali Horror Podcast)</h4>
+              <p>Gourab Tapadar</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+        <!-- this section contain music-player html  -->
+
+      <div class="music-player">
+
+          <!-- this section contain music-player-left html   -->
+
+        <div class="music-player-left">
+          <div class="player-img">
+            <img src="./Assets/album_picture.jpeg" alt="">
+          </div>
+          <div class="player-name">
+            <h5>Daku</h5>
+            <p>Chani Nattan, Inderpal Moga</p>
+          </div>
+          <div class="album-icon">
+            <img src="./Assets/album_icon1.png" alt="">
+          </div>
+        </div>
+
+          <!-- this section contain music-player-middle html   -->
+
+        <div class="music-player-mid">
+          <div class="player-control-btn">
+              <img class="control-btn" src="./Assets/player_icon1.png" alt="">
+              <img class="control-btn" src="./Assets/player_icon2.png" alt="">
+              <img class="musicbar" src="./Assets/play_musicbar.png" alt="">
+              <img  class="control-btn" src="./Assets/player_icon4.png" alt="">
+              <img class="control-btn" src="./Assets/player_icon5.png" alt="">
+      
+          </div>
+          <div class="player-controlbar">
+            <label for="controlbar">
+              <span>0:00</span>
+            <input  type="range" min="0" max="131" step="5" aria-valuetext="0:00/3:11" value="0" class="slider" id="controlbar">
+            <span>3:11</span>
+          </label>
+          </div>
+        </div>
+          <!-- this section contain music-player-right html   -->
+
+        <div class="music-player-right">
+          <div class="control-icon">
+            <img class="icon" src="./Assets/controls_icon1.png" alt="">
+            <img class="icon" src="./Assets/controld_icon2.png" alt="">
+            <img src="./Assets/controls_icon3.png" alt="">
+            <img src="./Assets/controls_icon4.png" alt="">
+            <img class="icon" src="./Assets/controls_icon5.png" alt="">
+            
+
+          </div>
+          <div class="volume">
+            <label for="volume-btn">
+              <input type="range" min="0" max="10" step="5" id="volume-btn" class="slider1">
+            </label>
+          </div>
+          <div class="minimize">
+            <img src="./Assets/album_icon2.png" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
